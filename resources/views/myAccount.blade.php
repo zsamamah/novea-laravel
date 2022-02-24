@@ -36,42 +36,32 @@
     <section class="profile">
         <div class="container my-5">
             <div class="row">
-                <h3>Results</h3>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <table>
-                        <tr>
-                            <th>Name</th>
-                            <th>Date</th>
-                            <th>Phone</th>
-                            <th>Location</th>
-                        </tr>
-                        <tr>
-                            <td>Ghassan</td>
-                            <td>2022/12/6</td>
-                            <td>0785459856</td>
-                            <td>Amman</td>
-                        </tr>
-                    </table>
+                <div class="col-md">
+                    <img src="https://www.freeiconspng.com/thumbs/person-icon/clipart--person-icon--cliparts-15.png"
+                        alt="s">
                 </div>
-                <div class="col-12">
-                    <table>
-                        <tr>
-                            <th>name</th>
-                            <th>Nate</th>
-                            <th>Phone</th>
-                            <th>Location</th>
-                        </tr>
-                        <tr>
-                            <td>Ghassan</td>
-                            <td>2022/12/6</td>
-                            <td>0785459856</td>
-                            <td>Amman</td>
-                        </tr>
-                    </table>
+                <div class="col-md">
+                    <h3>Profile Settings</h3>
+                    <div class="infoContainer">
+                        <form>
+                            <div class="names">
+                                <input type="text" placeholder="Full Name" class="btn">
+                            </div>
+                            <div class="emailAndPhone">
+                                <input type="email" placeholder="Email" class="btn">
+                                <input type="tel" placeholder="Phone Number" class="btn">
+                            </div>
+                            <div class="passwords">
+                                <input type="password" placeholder="My Password" class="btn">
+                                <input type="password" placeholder="Confirm Password" class="btn">
+                            </div>
+
+                            <button type="submit" class="btn bg-primary text-white">Submit!</button>
+                        </form>
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
 
